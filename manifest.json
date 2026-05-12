@@ -1,6 +1,6 @@
 {
  "name": "FM Drum",
- "version": "2026-05-12+local140714",
+ "version": "2026-05-12+local190958",
  "builds": [
   {
    "chipFamily": "ESP32",
