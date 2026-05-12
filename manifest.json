@@ -1,14 +1,23 @@
 {
-  "name": "FM Drum",
-  "version": "1.0.0",
-  "builds": [
+ "name": "FM Drum",
+ "version": "2026-05-12+local140714",
+ "builds": [
+  {
+   "chipFamily": "ESP32",
+   "parts": [
     {
-      "chipFamily": "ESP32",
-      "parts": [
-        { "path": "firmware/bootloader.bin", "offset": 4096 },
-        { "path": "firmware/partitions.bin", "offset": 32768 },
-        { "path": "firmware/firmware.bin", "offset": 65536 }
-      ]
+     "path": "firmware/bootloader.bin",
+     "offset": 4096
+    },
+    {
+     "path": "firmware/partitions.bin",
+     "offset": 32768
+    },
+    {
+     "path": "firmware/firmware.bin",
+     "offset": 65536
     }
-  ]
+   ]
+  }
+ ]
 }
